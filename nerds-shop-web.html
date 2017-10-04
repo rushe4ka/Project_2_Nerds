@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Nerd's</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header class="container">
+		<div class="main-logo">
+			<img src="img/logo_nav.svg" alt="Nerd's" width="139" height="56">
+		</div>
+		<nav class="main-nav">
+			<ul>
+				<li>
+					<a href="#">Студия</a>
+				</li>
+				<li>
+					<a href="#">Клиенты</a>
+				</li>
+				<li>
+					<a href="nerds-shop-web.html">Магазин</a>
+				</li>
+				<li>
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="user-block">
+			<a href="#">Корзина</a>
+		</div>
+		
+		<h1>Добро пожаловать в магазин готовых макетов</h1>
+	</header>
+	
+	<main class="container">
+		
+<!-- Боковая панель для выбора -->
+		<aside class="catalog-selection">
+			<form action="">
+				<fieldset class="catalog-form">
+					<legend class="form-title">Стоимость:</legend>
+					<div class="form-item">
+						<input type="range" name="price" id="price" min="0" max="20000" step="100" value="15000">
+					</div>
+				</fieldset>
+				<fieldset class="catalog-form">
+					<legend class="form-title">Сетка:</legend>
+					<div class="form-item">
+						<input type="radio" name="catalog-net" id="adaptive" checked>
+						<label for="adaptive">Адаптивная</label>
+					</div>
+					<div class="form-item">
+						<input type="radio" name="catalog-net" id="fixed">
+						<label for="fixed">Фиксированная</label>
+					</div>
+					<div class="form-item">
+						<input type="radio" name="catalog-net" id="elastic">
+						<label for="elastic">Резиновая</label>
+					</div>
+				</fieldset>
+				<fieldset class="catalog-form">
+					<legend  class="form-title">Особенности:</legend>
+					<div class="form-item">
+						<input type="checkbox" name="produce" id="slider" checked>
+						<label for="slider">Слайдер</label>
+					</div>
+					<div class="form-item">
+						<input type="checkbox" name="produce" id="preferenses">
+						<label for="preferenses">Блок преимуществ</label>
+					</div>
+					<div class="form-item">
+						<input type="checkbox" name="produce" id="news" checked>
+						<label for="news">Новости</label>
+					</div>
+					<div class="form-item">
+						<input type="checkbox" name="produce" id="gallery">
+						<label for="gallery">Галерея</label>
+					</div>
+					<div class="form-item">
+						<input type="checkbox" name="produce" id="basket">
+						<label for="basket">Корзина</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn">Показать</button>
+			</form>
+		</aside>
+		
+<!-- Основное содержание каталога -->
+		<section class="main-catalog">
+			<div class="slide-selection">
+				Сортировать:
+				по цене
+				по типу
+				по функционалу
+			</div>
+			<article class="slides">
+				<img src="img/browser.png" alt="" width="240" height="30">
+				<img src="img/browser-hover.png" alt="" width="240" height="30">
+				<img src="img/catalog_aviator.jpg" alt="" width="240" height="240">
+				<div class="slide-details">
+					<h2 class="item-title">Aviator</h2>
+					<p class="item-description">Одностраничный макет с авторским дизайном</p>
+					<span class="item-price">8 000 р.</span>
+				</div>
+			</article>
+			<article class="slides">
+				<img src="img/browser.png" alt="" width="240" height="30">
+				<img src="img/browser-hover.png" alt="" width="240" height="30">
+				<img src="img/catalog_sunset.jpg" alt="" width="240" height="240">
+				<div class="slide-details">
+					<h2 class="item-title">Sunset</h2>
+					<p class="item-description">Интернет-магазин с личным кабинетом</p>
+					<span class="item-price">10 000 р.</span>
+				</div>
+			</article>
+			<article class="slides">
+				<img src="img/browser.png" alt="" width="240" height="30">
+				<img src="img/browser-hover.png" alt="" width="240" height="30">
+				<img src="img/catalog_forte.jpg" alt="" width="240" height="240">
+				<div class="slide-details">
+					<h2 class="item-title">Forte</h2>
+					<p class="item-description">Отличный макет для личного блога</p>
+					<span class="item-price">5 000 р.</span>
+				</div>
+			</article>
+			<article class="slides">
+				<img src="img/browser.png" alt="" width="240" height="30">
+				<img src="img/browser-hover.png" alt="" width="240" height="30">
+				<img src="img/catalog_modern.jpg" alt="" width="240" height="240">
+				<div class="slide-details">
+					<h2 class="item-title">Modern Organic Thai</h2>
+					<p class="item-description">Сайт для ресторана быстрого питания</p>
+					<span class="item-price">12 000 р.</span>
+				</div>
+			</article>
+			<article class="slides">
+				<img src="img/browser.png" alt="" width="240" height="30">
+				<img src="img/browser-hover.png" alt="" width="240" height="30">
+				<img src="img/catalog_avenue.jpg" alt="" width="240" height="240">
+				<div class="slide-details">
+					<h2 class="item-title">Avenue</h2>
+					<p class="item-description">Макет для блога о путешествиях</p>
+					<span class="item-price">8 000 р.</span>
+				</div>
+			</article>
+			<article class="slides">
+				<img src="img/browser.png" alt="" width="240" height="30">
+				<img src="img/browser-hover.png" alt="" width="240" height="30">
+				<img src="img/catalog_dovetail.jpg" alt="" width="240" height="240">
+				<div class="slide-details">
+					<h2 class="item-title">Dovetail</h2>
+					<p class="item-description">Интернет-магазин с галереей товаров</p>
+					<span class="item-price">14 000 р.</span>
+				</div>
+			</article>
+		</section>
+		<div class="paginator">
+			<span class="active">1</span>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">Следующая</a>
+		</div>
+	</main>
+	
+<!-- Карта -->
+	<section class="container">
+		<div class="main-map">
+			<img src="img/map.jpg" width="1199" height="416">
+			<div class="map-address">
+				<b>NЁRDS design studio</b>
+				<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/<br>
+				тел. +7 (812) 275-75-75
+				</p>
+				<a href="#">Напишите нам</a>
+			</div>
+			<img src="img/map_pointer.png" width="231" height="190">
+			<img src="img/map_pointer_logo.svg" alt="Nerd's" width="92" height="37">
+		</div>
+	</section>
+	
+	<footer class="container">
+		<div class="footer-social">
+			<a class="social-btn" href="#">ВК</a>
+			<a class="social-btn" href="#">ФБ</a>
+			<a class="social-btn" href="#">ИГ</a>
+		</div>
+		<div class="footer-friendship">
+			<h3>Давайте дружить, это выгодно!</h3>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+		</div>
+	</footer>
+	
+</body>
+
+</html>
