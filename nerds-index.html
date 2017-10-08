@@ -8,11 +8,13 @@
 
 <body>
 	<header class="container">
-		<div class="main-logo">
+	
+		<div class="header-logo">
 			<img src="img/logo_nav.png" alt="Nerd's" width="139" height="56">
 		</div>
-		<nav class="main-nav">
-			<ul>
+		
+		<nav>
+			<ul class="header-nav">
 				<li>
 					<a href="#">Студия</a>
 				</li>
@@ -20,56 +22,40 @@
 					<a href="#">Клиенты</a>
 				</li>
 				<li>
-					<a href="nerds-shop.html">Магазин</a>
+					<a href="#">Магазин</a>
 				</li>
 				<li>
 					<a href="#">Контакты</a>
 				</li>
 			</ul>
 		</nav>
-		<div class="user-block">
-			<a href="#">Корзина</a>
+		
+		<div class="header-basket">
+			<a class="basket-link" href="#">Корзина</a>
 		</div>
 		
-		<section class="main-slider">
+		<section class="header-slider">
 <!-- Слайд 1 -->
-			<div class="slider-text-1">
+			<div class="slider">
 				<h2 class="slider-title">Долго, дорого, скрупулезно.</h2>
-				<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-				<a href="#">Узнать больше</a>
-			</div>
-			<div class="slider-radio">
-				
-			</div>
-			<div class="slider-img-1">
-				<img src="img/slider_comp.png" alt="For site and mobile apps" width="338" height="231">
+				<p class="slider-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+				<a class="btn btn-slider" href="#">Узнать больше</a>
 			</div>
 
 <!-- Слайд 2 -->
-			<div class="slider-text-2">
+			<div class="slider">
 				<h2 class="slider-title">Любите ли вы математику, как любим ее мы?</h2>
-				<p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
-				<a href="#">Узнать больше</a>
-			</div>
-			<div class="slider-radio">
-				
-			</div>
-			<div class="slider-img-2">
-				<img src="img/slider_math.png" alt="For site and mobile apps" width="230" height="249">
+				<p class="slider-text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
+				<a class="btn btn-slider" href="#">Узнать больше</a>
 			</div>
 
 <!-- Слайд 3 -->
-			<div class="slider-text-3">
+			<div class="slider">
 				<h2 class="slider-title">Только наркотики, только хардкор!</h2>
-				<p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
-				<a href="#">Узнать больше</a>
+				<p class="slider-text">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
+				<a class="btn btn-slider" href="#">Узнать больше</a>
 			</div>
-			<div class="slider-radio">
-				
-			</div>
-			<div class="slider-img-3">
-				<img src="img/slider_robot.png" alt="For site and mobile apps" width="333" height="319">
-			</div>
+			
 		</section>
 	</header>
 	
@@ -77,47 +63,55 @@
 	
 <!-- Виды работ -->
 		<div class="main-proposals">
-			<div class="proposals-site">
-				<img src="img/proposals_web.png" width="240" height="124">
-				<h3 class="proposals-title">Веб-сайты</h3>
-				<p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
-				<a href="nerds-shop-web.html">Заказать</a>
+		
+			<div class="proposals proposals-site">
+				<div class="proposals-img">
+					<img src="img/proposals_web.png" width="240" height="124">
+				</div>
+				<h2 class="proposals-title">Веб-сайты</h2>
+				<p class="proposals-text">Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
+				<a class="btn btn-proposals-web" href="nerds-shop-web.html">Заказать</a>
 			</div>
-			<div class="proposals-app">
-				<img src="img/proposals_app.png" width="240" height="124">
-				<h3 class="proposals-title">Приложения</h3>
-				<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-				<a href="#">Заказать</a>
+			
+			<div class="proposals proposals-app">
+				<div class="proposals-img">
+					<img src="img/proposals_app.png" width="240" height="124">
+				</div>
+				<h2 class="proposals-title">Приложения</h2>
+				<p class="proposals-text">Покорите топ-10 приложений в AppStore и Google Play</p>
+				<a class="btn btn-proposals-app" href="#">Заказать</a>
 			</div>
-			<div class="proposals-presentation">
-				<img src="img/proposals_present.png" width="240" height="124">
-				<h3 class="proposals-title">Презентации</h3>
-				<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-				<a href="#">Заказать</a>
+			
+			<div class="proposals proposals-presentation">
+				<div class="proposals-img">
+					<img src="img/proposals_present.png" width="240" height="124">
+				</div>
+				<h2 class="proposals-title">Презентации</h2>
+				<p class="proposals-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+				<a class="btn btn-proposals-present" href="#">Заказать</a>
 			</div>
 		</div>
 		
 <!-- О студии -->
-		<div class="main-presentation">
-			<div class="presentation-about">
-				<h2 class="presentation-title">Мы - маленькая, но гордая дизайн-студия из Краснодара</h2>
-				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+		<div class="main-about">
+			<div class="about">
+				<b class="presentation-title">Мы - маленькая, но гордая дизайн-студия из Краснодара</b>
+				<p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
 			</div>
-			<div class="presentation-logo">
+			<div class="about-logo">
 				<img src="img/logo_present.png" alt="Nerd's" width="240" height="119">
-				<span>Since 2004</span>
 			</div>
-			<div class="presentation-products">
-				<p class="work-title">Выполняем заказы на разработку:</p>
-				<ul>
+			<div class="about-products">
+				<p class="products-title">Выполняем заказы на разработку:</p>
+				<ul class="products-list">
 					<li>Веб-сайтов любой сложности</li>
 					<li>Мобильных приложений для iOS и Android</li>
 					<li>Слайдшоу и видео для корпоративных презентаций</li>
 				</ul>
 			</div>
-			<div class="presentation-work">
+			<div class="about-work">
 				<p class="work-title">Как мы работаем:</p>
-				<ul>
+				<ul class="work-list">
 					<li>С самоотдачей 146%</li>
 					<li>Соблюдая сроки на 100%</li>
 					<li>По предоплате 50%</li>
@@ -125,7 +119,7 @@
 			</div>
 			
 <!-- Клиенты студии -->
-			<div class="presentation-clients">
+			<div class="about-clients">
 				<img src="img/logo_glukhanko.png" alt="Glukhanko" width="198" height="37">
 				<img src="img/logo_htmlacad.png" alt="HTMLAcademy" width="199" height="68">
 				<img src="img/logo_borodinski.png" alt="Barbershop Borodinski" width="209" height="86">
@@ -136,27 +130,28 @@
 <!-- Карта -->
 	<section class="container">
 		<div class="main-map">
-			<img src="img/map.jpg" width="1199" height="416">
 			<div class="map-address">
 				<b>NЁRDS design studio</b>
 				<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/<br>
 				тел. +7 (812) 275-75-75
 				</p>
-				<a href="#">Напишите нам</a>
+				<a class="btn btn-mail" href="#">Напишите нам</a>
 			</div>
-			<img src="img/logo_pointer_map.png" alt="Nerd's" width="231" height="190">
+			<div class="map-pointer">
+				<img src="img/logo_pointer_map.png" alt="Nerd's" width="231" height="190">
+			</div>
 		</div>
 	</section>
 	
 	<footer class="container">
 		<div class="footer-social">
-			<a class="social-btn" href="#">ВК</a>
-			<a class="social-btn" href="#">ФБ</a>
-			<a class="social-btn" href="#">ИГ</a>
+			<a class="social-btn social-btn-vk" href="#">ВК</a>
+			<a class="social-btn social-btn-fb" href="#">ФБ</a>
+			<a class="social-btn social-btn-ig" href="#">ИГ</a>
 		</div>
 		<div class="footer-friendship">
-			<h3>Давайте дружить, это выгодно!</h3>
-			<p>Скидка 10% для друзей из социальных сетей.</p>
+			<h3 class="footer-friendship-title">Давайте дружить, это выгодно!</h3>
+			<p class="footer-friendship-text">Скидка 10% для друзей из социальных сетей.</p>
 		</div>
 	</footer>
 	
